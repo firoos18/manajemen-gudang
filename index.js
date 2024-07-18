@@ -29,7 +29,7 @@ app.use(cors(corsOpts));
 app.options("*", cors(corsOpts));
 
 app.get("/", async (req, res, next) => {
-  res.send("Hello it's Perpustakaan Backend");
+  res.send("Hello it's Manajemen Gudang Backend");
 });
 
 app.use("/auth", AuthRoute);
